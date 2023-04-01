@@ -1,0 +1,23 @@
+body{
+    background:azure;
+    text-align: center;;
+}
+
+h1{
+    font-size : 2em;
+    font-weight:600;
+    color: royalblue;
+    border: solid 1px royalblue ;
+    border-radius: 5px;
+}
+#links{
+    display : flex;
+    flex-direction : row;
+    justify-content : space-around;
+}
+#links a{
+    width : 100px;
+    border : solid 1px royalblue;
+    border-radius: 5px;
+}
+
